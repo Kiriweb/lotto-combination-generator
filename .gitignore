@@ -1,0 +1,20 @@
+# Backup files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+out/
