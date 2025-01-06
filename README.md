@@ -77,7 +77,7 @@ The program processes lotto numbers to generate and filter valid combinations. S
 
 ## Project Structure
 ```
-JavaLottoCombinationsFilter/
+lotto-combination-generator/
 ├── LottoCombinations.java      # Main program file
 ├── input.txt                   # Sample input file
 └── README.md                   # Project documentation
