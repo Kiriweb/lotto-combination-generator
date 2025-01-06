@@ -37,7 +37,7 @@ The program processes lotto numbers to generate and filter valid combinations. S
    ```
 2. Navigate to the project directory:
    ```bash
-   cd lotto-combination-generator
+   cd lotto-combination-generator\gr\coding\lotto
    ```
 3. Compile the Java program:
    ```bash
@@ -45,13 +45,16 @@ The program processes lotto numbers to generate and filter valid combinations. S
    ```
 
 ### Running the Program
-1. Create an input file (e.g., `input.txt`) with integers (one per line).
-2. Run the program:
+1. Create an input file (e.g., `input.txt`) with integers (one per line). Make sure that input.txt is inside root directory lotto-combination-generator.
+2. 2. Navigate to the project directory:
    ```bash
-   java LottoCombinations input.txt output.txt
+   cd gr\coding\lotto
    ```
-   Replace `input.txt` with your input file name and `output.txt` with the desired output file name.
-
+3. Run the program:
+   ```bash
+   java LottoCombinations
+   ```
+   
 ## Example
 ### Input File (`input.txt`):
 ```
@@ -77,10 +80,13 @@ The program processes lotto numbers to generate and filter valid combinations. S
 
 ## Project Structure
 ```
-lotto-combination-generator/
+lotto-combination-generator\gr\coding\lotto
 ├── LottoCombinations.java      # Main program file
-├── input.txt                   # Sample input file
 └── README.md                   # Project documentation
+```
+```
+lotto-combination-generator\
+├── input.txt                   # Sample input file
 ```
 
 ## Author
