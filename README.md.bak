@@ -54,7 +54,7 @@ The program processes lotto numbers to generate and filter valid combinations. S
 
 ## Example
 ### Input File (`input.txt`):
-```
+
 5
 10
 15
@@ -64,15 +64,15 @@ The program processes lotto numbers to generate and filter valid combinations. S
 35
 40
 45
-49
-```
+46
+...
 
 ### Output File (`output.txt`):
-```
+
 5, 10, 15, 20, 25, 30
 10, 15, 20, 25, 30, 35
 ...
-```
+
 (Note: Only valid combinations that meet the criteria will appear in the output.)
 
 ## Project Structure
